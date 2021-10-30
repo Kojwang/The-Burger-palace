@@ -28,6 +28,16 @@ nav img{
     position: relative;
 }
 
+header .logo{
+    color:var(none);
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color: beige;
+    
+}
 
 
 
