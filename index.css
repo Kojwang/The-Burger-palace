@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
 .header{
     background: linear-gradient(125deg, white 68%, #F6B400 32%);
@@ -11,7 +11,7 @@
     background-color: #F6B400;
     border: none;
     width: 45px;
-    margin-left: 700px;
+    margin-left: 650px;
 }
 
 .logo{
@@ -77,12 +77,16 @@ nav img{
     transform: translate(-60%, -40)
     text-align: center;
 }
-.text-box h2{
-    font-size: 42px;
+.text-box p{
+    font-size: 24px;
+    font-style: normal;
+
 }
+ 
+
 .text-box p{
 margin: 10px 0 40px;
-font-size: 24x;
+font-size: 24px;
 color: black;
 }
 .ordeer{
@@ -95,7 +99,36 @@ color: black;
 .ordeer a{
     text-decoration: none;
     color: white;
+    
 }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
