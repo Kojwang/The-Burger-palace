@@ -2,24 +2,25 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 .header{
-    background: linear-gradient(125deg, white 68%, #F6B400 32%);
+    background: linear-gradient(125deg, white 50%, #F6B400 50%);
 }
+
 .header hr{
     height: 7px;
     background-color: #F6B400;
     border: none;
     width: 45px;
-    margin-left: 650px;
+    margin-left: 700px;
 }
 
-.logo{
-    color:var(none);
-    font-size: 3.5rem;
+header.logo{
+    font-size: 1rem;
     font-weight: bolder;
-     
 }
+  
 .logo span{
     color: #F6B400;
 }
@@ -29,14 +30,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav img{
-    width: 150px;
-}
-
-.nav-links{
-    flex: none;
-    text-align: right;
-}
     .nav-links{
         flex: 1;
         text-align:right;
@@ -44,7 +37,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 6px 12px;
     position: relative;
 }
 .nav-links ul li a{
@@ -53,39 +46,25 @@ nav img{
     font-size: 20px;
     font-weight: bolder;
 }
-.nav-links ul li::after{
-    content: empty;
-    width: 0%;
-    height: 2px;
-    background: hsl(340, 100%, 50%);
-    display: block;
-    margin: auto;
-    transition: 0.7s;
-    cursor: pointer;
-    padding: 8rem;
-}
-.nav-links ul li:hover::after{
-    width: 100%;
-}
+
 .text-box{
-    width: 70%;
     color: black;
-    position:none;
-    margin-left: 300px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60%, -40)
-    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 200px;
 }
 .text-box p{
-    font-size: 24px;
+    font-size: 2px;
     font-style: normal;
-
 }
- 
+ .text-box img{
+     height: 800px;
+     padding-left: 500px;
 
+
+
+ }
 .text-box p{
-margin: 10px 0 40px;
 font-size: 24px;
 color: black;
 }
@@ -101,7 +80,12 @@ color: black;
     color: white;
  
 }
-
+.row{
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
 
 
 
@@ -142,7 +126,7 @@ color: black;
 
 
 .footer{
-    background: linear-gradient( white));
+    background: linear-gradient( white);
 }
 .footer hr{
     height: 7px;
@@ -151,7 +135,6 @@ color: black;
     width: 45px;
     
     }
- {
     .logo{
         color:var(none);
         font-size: 3.5rem;
