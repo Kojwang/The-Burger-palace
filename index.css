@@ -99,9 +99,68 @@ color: black;
 .ordeer a{
     text-decoration: none;
     color: white;
-    
-}
  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background: linear-gradient( white));
+}
+.footer hr{
+    height: 7px;
+    background-color: #F6B400;
+    border: none;
+    width: 45px;
+    
+    }
+ {
+    .logo{
+        color:var(none);
+        font-size: 3.5rem;
+        font-weight: bolder;
+         
+    }
+    .logo span{
+        color: #F6B400;
+ }
 
 
 
