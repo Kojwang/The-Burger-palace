@@ -1,124 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: poppins;
-}
-.header{
-    background: linear-gradient(125deg, white 50%, #F6B400 50%);
-}
-.header hr{
-    height: 15px;
-    background-color: #F6B400;
-    border: none;
-    width: 40px;
-    margin-left: 700px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
 }
 
-.logo{
-    font-size: 3rem;
-    font-weight: bolder;
-    background: flex;
+.header {
+  background: linear-gradient(125deg, white 50%, #f6b400 50%);
 }
-.logo span{
-    color: #F6B400;
-}
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-nav img{
-    width: 100px;
-}
-.nav-links{
-    flex: none;
-    text-align: right;
-}
-    .nav-links{
-        flex: 1;
-        text-align:right;
-    }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.nav-links ul li a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.nav-links ul li::after{
-    content: empty;
-    width: 0%;
-    height: 2px;
-    display: block;
-    margin: auto;
-    transition: 0.7s;
-    cursor: pointer;
-    padding: 8rem;
-}
-.nav-links ul li:hover::after{
-    width: 100%;
-}
-.text-box{
-    width: 70%;
-    color: black;
-    position:none;
-    margin-left: 300px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60%, -40)
-    text-align center;
-}
-.text-box h2{
-    font-size: 42px;
-}
-.text-box p{
-        margin: 10px 0 40px;
-        font-size: 24x;
-        color: black;
-
-}
-.ordeer{
-    text-decoration: none;
-    background-color: #F6B400;
-    padding: 30px 20px;
-    border: none;
-    border-radius: 80px 30px 0 60px;
-}
-.ordeer a{
-    text-decoration: none;
-    color: white;
-}
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.Fast-deli{
-    flex-basis: 20%;
-    background: rgb(194, 196, 192);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.menu{
-    border: 1px solid;
-    text-align: center;
-
-
+.header hr {
+  height: 15px;
+  background-color: #f6b400;
+  border: none;
+  width: 40px;
+  margin-left: 700px;
 }
 
+.logo {
+  font-size: 3rem;
+  font-weight: bolder;
+  background: flex;
+}
+.logo span {
+  color: #f6b400;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+}
+.nav-links {
+  flex: none;
+  text-align: right;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.nav-links ul li::after {
+  content: empty;
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  transition: 0.7s;
+  cursor: pointer;
+  padding: 8rem;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.text-box {
+  width: 70%;
+  color: black;
+  position: none;
+  margin-left: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -40);
+  text-align: center;
+}
+.text-box h2 {
+  font-size: 42px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 24x;
+  color: black;
+}
+.ordeer {
+  text-decoration: none;
+  background-color: #f6b400;
+  padding: 30px 20px;
+  border: none;
+  border-radius: 80px 30px 0 60px;
+}
+.ordeer a {
+  text-decoration: none;
+  color: white;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.Fast-Del {
+  flex-basis: 20%;
+  background: rgb(194, 196, 192);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+.menu {
+  border: 1px solid;
+  text-align: center;
+}
 
+/*  */
 
+.Our {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
 
+  padding: 10px 50px;
+}
 
+.menu {
+  width: 350px;
+  padding: 20px;
+}
 
-
-
-
+.menu__img {
+  height: 150px;
+}
